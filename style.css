@@ -61,7 +61,6 @@ span {
  padding: 20px 30px;
  line-height: 1.3em;
  margin-bottom: 20px;
- 
 }
 
 /* feature section */
@@ -98,10 +97,19 @@ img {
 }
 
 @media screen and (min-width: 375px) {
-    
+    .main-container {
+        display: flex;
+        flex-direction: column;
+    }
 
-}
-    
+ .text1 {
+     font-size: 20px;
+     text-align: center;   
+    }
+    .text2 {
+        font-size: 13px;
+        text-align: center;
+    }   
 }
     
 }
