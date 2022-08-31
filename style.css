@@ -96,8 +96,9 @@ img {
  height: 350px;
 }
 
-@media screen and (min-width: 375px) {
+@media screen and (max-width: 960px) {
     .main-container {
+        width: 375px;
         display: flex;
         flex-direction: column;
     }
