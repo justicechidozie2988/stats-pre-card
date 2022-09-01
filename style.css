@@ -120,6 +120,7 @@ height: 400px;
   .flex-container {
      display: flex;
      flex-direction: column;
+     width: 375px;
   }
   
 }
