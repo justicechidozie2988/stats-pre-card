@@ -1,45 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Stats preview card component</title>
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+        color: white;
+      }
+      .attribution a {
+        color: hsl(228, 100%, 70%);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="left-container">
+          <h1 class="header-container">
+            Get <span class="insights">insights</span> that help your business
+            grow.
+          </h1>
+          <div class="text-container">
+            <span class="text">
+              Discover the benefits of data analytics and make better decisions
+              regarding revenue, customer experience, and overall efficiency.
+            </span>
+          </div>
+          <div class="stats-container">
+            <div class="company-container">
+              <span class="number">10k+</span>
+              <span class="subject">companies</span>
+            </div>
+            <div class="template-container">
+              <span class="number">314</span>
+              <span class="subject">templates</span>
+            </div>
+            <div class="query-container">
+              <span class="number">12M+</span>
+              <span class="subject">queries</span>
+            </div>
+          </div>
+        </div>
+        <div class="right-container">
+          <img
+            src="images\image-header-desktop.jpg"
+            alt="office image of three women working on computers"
+            class="bg-image"
+          />
+        </div>
+      </header>
+    </main>
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Stats preview card component</title>
-  <link rel="stylesheet" href="style.css"> 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
- 
-</head>
-<body>
-  <!-- Main Section -->
-   <div class="main-container">
-    <div class="text-container">
-      <h1 class="text1">Get <span>insights</span> that helps your business grow</h1>
-      <p class="tex2">
-        Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency
-      </p>
-    <!-- Feature Section -->
-    <div class="flex-container">
-      <div>
-        <h4 class="items">10k+</h4>
-        <p>COMPANIES</p>
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://www.frontendmentor.io/profile/SwapnilRaj1708"
+          >Swapnil Raj</a
+        >.
       </div>
-      <div>
-      <h4 class="items">314</h4>
-      <p>TEMPLATES</p>
-      </div>
-    <div>
-      <h4 class="items">12m+</h4>
-      <p>QUERIES</p>
-      </div>
-      </div>
-      </div>
-      <!--Image Section-->
-    <div class="image">
-      <img src="images/image-header-desktop.jpg">
-    </div>
-  
-    </div>
-  </body>    
+    </footer>
+  </body>
 </html>
